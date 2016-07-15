@@ -1,4 +1,6 @@
-
+## 仿微信蹦蹦蹦跳出聊天界面
+<br />
+<image  width="150" align="center" src="https://github.com/fiowind/h5-wechat/blob/master/app/images/6.pic.jpg" >
 ## Installation
 
 Install all dependencies. 
