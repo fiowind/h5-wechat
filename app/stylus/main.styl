@@ -1,0 +1,150 @@
+
+
+/* variables */
+$lightgrey = #999
+$linkColor = #555
+$grey = #eee
+$black = #222
+$white = #f7f7f7
+
+html
+button
+input
+select
+textarea 
+  color: $black
+
+*
+  margin 0
+  padding 0
+  -webkit-font-smoothing antialiased
+
+a
+a:visited
+  color: $linkColor
+  text-decoration: none
+
+a:hover
+  color: lighten($linkColor,10%)
+  
+body
+  background #ebebeb
+  color: $black
+  font-size: 1em
+  line-height: 1.5
+  -webkit-user-select none
+  user-select none
+  -webkit-tap-highlight-color transparent
+  -webkit-overflow-scrolling touch
+  font-family: '.SFNSDisplay-Ultralight','Helvetica Neue','Helvetica','STHeitiSC-Light','Arial',sans-serif;
+audio
+  visibility hidden
+.header
+  position fixed
+  top 0
+  background #31362f
+  /*visibility: hidden;*/
+  img
+    width: 100%;
+    position: relative;
+    top: 4px;
+.nowtime
+  margin-top 45px
+  text-align: center;
+  font-family 'Helvetica Neue','Helvetica','STHeitiSC-Light','Arial',sans-serif
+  span
+    font-size: 12px;
+    background: #ddd;
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 4px;
+.footer
+  position: fixed;
+  bottom: 0;
+  height: 41px;
+  border-top: 1px rgb(226, 226, 226) solid;
+  background: #f4f4f6;
+  img
+    width 100%
+    position: relative;
+    top: 1px;
+
+.newtu
+  position relative
+  padding: 10px;
+  .dui
+    height 3.5em
+    display: flex;
+    align-items: flex-start;
+    img
+      width: 2.4em;
+      border: 1px solid #ddd;
+    .duihua
+      position relative
+      display inline-block
+      background: #fff;
+      line-height: 1em;
+      padding: 8px;
+      border: 1px solid #dedddd;
+      margin: 5px;
+      font-size: 14px;
+      border-radius: 5px;
+      &.dh_left
+        background #a2e658
+        margin-right 10px
+      &.dh_right
+        margin-left 10px
+  .dui2,.dui4,.dui6
+    float right
+  .dui3,.dui5,.dui7
+    margin-top 4em
+
+
+ /*箭头向左*/
+.arrow-left {
+  position: absolute;
+  left: -7px;
+  top:10px;
+  width: 0;
+  height: 0;
+  border-radius: 14px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #fff;  
+}
+.arrow-left2 {
+  position: absolute;
+  left: -8px;
+  top:10px;
+  width: 0;
+  height: 0;
+  border-radius: 14px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 8px solid #ddd;  
+  z-index: -1;
+}
+   
+/*箭头向右*/
+.arrow-right {
+  position: absolute;
+  right: -7px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #a2e658;
+}
+.arrow-right2 {
+  position: absolute;
+  right: -8px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #a2e658;
+}
+
+@
